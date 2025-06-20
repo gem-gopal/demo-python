@@ -6,6 +6,8 @@ from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *
 from server.routes import *
 
+API_KEY = "as2rb29hb235-2dbsf23hadf02sadag"
+
 default_books = [
     ("The Hobbit", "JRR Tolkien", True),
     ("The Fellowship of the Ring", "JRR Tolkien", True),
