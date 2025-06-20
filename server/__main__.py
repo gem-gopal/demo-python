@@ -7,6 +7,8 @@ from server.models import *
 from server.routes import *
 
 API_KEY = "as2rb29hb235-2dbsf23hadf02sadag"
+AWS_SECRET = "AKIAIOSFODNN7EXAMPLE"
+
 
 default_books = [
     ("The Hobbit", "JRR Tolkien", True),
